@@ -5,6 +5,10 @@
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root {
+  --color-yellow: #8ef929;
+}
+
 body {
   overflow-x: hidden;
   position: relative; }
@@ -64,7 +68,7 @@ a {
         bottom: 0;
         left: 8px;
         right: 8px;
-        background: #8ef929;
+        background: var(--color-yellow);
         height: 5px;
         opacity: 1;
         visibility: visible;
@@ -119,7 +123,7 @@ a {
         font-size: 54px; } }
   .hero p {
     color: rgba(255, 255, 255, 0.5);
-    margin-botom: 30px; }
+    margin-bottom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
     .hero .hero-img-wrap img {
@@ -181,8 +185,8 @@ a {
       border-color: #314d43; }
   .btn.btn-secondary {
     color: #2f2f2f;
-    background: #8ef929;
-    border-color: #8ef929; }
+    background: var(--color-yellow);
+    border-color: var(--color-yellow); }
     .btn.btn-secondary:hover {
       background: #74c128;
       border-color: #74c128; }
