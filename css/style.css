@@ -6,7 +6,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 :root {
-  --color-yellow: #f9bf29;
+  --color-yellow: #8ef929;
 }
 
 body {
@@ -123,7 +123,7 @@ a {
         font-size: 54px; } }
   .hero p {
     color: rgba(255, 255, 255, 0.5);
-    margin-botom: 30px; }
+    margin-bottom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
     .hero .hero-img-wrap img {
@@ -188,8 +188,8 @@ a {
     background: var(--color-yellow);
     border-color: var(--color-yellow); }
     .btn.btn-secondary:hover {
-      background: #f8b810;
-      border-color: #f8b810; }
+      background: #74c128;
+      border-color: #74c128; }
   .btn.btn-white-outline {
     background: transparent;
     border-width: 2px;
